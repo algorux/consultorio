@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Consultorio Dental Fuentes</title>
+
+<style>
+:root{
+    --azul:#2f7ed8;
+    --azul-oscuro:#195ca8;
+    --gris:#f5f7fa;
+    --texto:#333;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Segoe UI, sans-serif;
+}
+
+body{
+    color:var(--texto);
+    line-height:1.6;
+    background:white;
+}
+
+header{
+    background:linear-gradient(135deg,var(--azul),var(--azul-oscuro));
+    color:white;
+    text-align:center;
+    padding:80px 20px;
+}
+
+.logo{
+    font-size:4rem;
+    margin-bottom:15px;
+}
+
+header h1{
+    font-size:2.5rem;
+    margin-bottom:10px;
+}
+
+header p{
+    font-size:1.2rem;
+    max-width:700px;
+    margin:auto;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:30px;
+    background:white;
+    color:var(--azul-oscuro);
+    padding:14px 28px;
+    border-radius:50px;
+    text-decoration:none;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:translateY(-2px);
+}
+
+section{
+    padding:70px 20px;
+}
+
+.container{
+    max-width:1100px;
+    margin:auto;
+}
+
+h2{
+    text-align:center;
+    margin-bottom:40px;
+    color:var(--azul-oscuro);
+}
+
+.about{
+    text-align:center;
+    max-width:800px;
+    margin:auto;
+    font-size:1.1rem;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:var(--gris);
+    padding:25px;
+    border-radius:12px;
+    text-align:center;
+}
+
+.card h3{
+    color:var(--azul-oscuro);
+    margin-bottom:10px;
+}
+
+.doctor{
+    background:var(--gris);
+    border-radius:15px;
+    padding:40px;
+    text-align:center;
+}
+
+.doctor h3{
+    color:var(--azul-oscuro);
+    margin-bottom:10px;
+}
+
+.contacto{
+    text-align:center;
+}
+
+.contacto p{
+    margin-bottom:10px;
+}
+
+footer{
+    background:#1d1d1d;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+.whatsapp{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    width:60px;
+    height:60px;
+    background:#25D366;
+    color:white;
+    border-radius:50%;
+    text-decoration:none;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:28px;
+    box-shadow:0 4px 10px rgba(0,0,0,.3);
+}
+</style>
+</head>
+<body>
+
+<header>
+
+    <div class="logo">🦷</div>
+
+    <h1>Consultorio Dental Fuentes</h1>
+
+    <p>
+        Odontología con sentido humano,
+        soluciones inteligentes.
+    </p>
+
+    <a
+      class="btn"
+      href="https://wa.me/52TU_NUMERO_WHATSAPP"
+      target="_blank">
+      Agendar cita
+    </a>
+
+</header>
+
+<section>
+    <div class="container">
+
+        <h2>Bienvenido</h2>
+
+        <div class="about">
+            <p>
+                Nos enfocamos en brindar atención odontológica integral,
+                combinando experiencia profesional, tecnología y un trato
+                cercano para cuidar la salud y estética de tu sonrisa.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<section style="background:#fafafa;">
+    <div class="container">
+
+        <h2>Servicios</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>Consulta General</h3>
+                <p>Evaluación y diagnóstico integral.</p>
+            </div>
+
+            <div class="card">
+                <h3>Limpieza Dental</h3>
+                <p>Prevención y mantenimiento.</p>
+            </div>
+
+            <div class="card">
+                <h3>Resinas</h3>
+                <p>Restauraciones estéticas.</p>
+            </div>
+
+            <div class="card">
+                <h3>Periodoncia</h3>
+                <p>Tratamiento de encías.</p>
+            </div>
+
+            <div class="card">
+                <h3>Implantología</h3>
+                <p>Reposición de piezas dentales.</p>
+            </div>
+
+            <div class="card">
+                <h3>Odontología Integral</h3>
+                <p>Atención completa para toda la familia.</p>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <div class="container">
+
+        <h2>Especialista</h2>
+
+        <div class="doctor">
+
+            <h3>
+                Dr. Jorge David Murillo Hernández
+            </h3>
+
+            <p>
+                Cirujano Dentista Especialista
+            </p>
+
+            <p>
+                Especialidad en Periodoncia e Implantología.
+            </p>
+
+        </div>
+
+    </div>
+</section>
+
+<section style="background:#fafafa;">
+    <div class="container">
+
+        <h2>Horarios</h2>
+
+        <div class="contacto">
+
+            <p><strong>Lunes a Viernes</strong></p>
+            <p>10:00 a 15:00 hrs</p>
+            <p>16:00 a 19:00 hrs</p>
+
+            <br>
+
+            <p><strong>Sábados</strong></p>
+            <p>10:00 a 15:00 hrs</p>
+
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <div class="container">
+
+        <h2>Contacto</h2>
+
+        <div class="contacto">
+
+            <p>
+                📞 747 XXX XXXX
+            </p>
+
+            <p>
+                📍 Dirección del consultorio
+            </p>
+
+            <p>
+                Chilpancingo, Guerrero
+            </p>
+
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    © 2026 Consultorio Dental Fuentes
+</footer>
+
+<a
+class="whatsapp"
+href="https://wa.me/52TU_NUMERO_WHATSAPP"
+target="_blank">
+💬
+</a>
+
+</body>
+</html>
